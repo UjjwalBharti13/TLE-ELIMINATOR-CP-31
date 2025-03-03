@@ -1,8 +1,7 @@
-// Problem Link - 
-/* Created By: 
- *   Ujjwal Bharti
- */
-/*   ⠀⢀⣴⣶⣶⣆⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣴⣤⣶⣶⣶⣶⣦⣶⣾⣿⣿⣷⣾⣿⣿⣿⣿⣶⡦⣀⠀⠀⠀⣠⠤⣤⡆
+//Problem Link -
+//Created By:
+//Ujjwal Bharti
+/*⠀⢀⣴⣶⣶⣆⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣴⣤⣶⣶⣶⣶⣦⣶⣾⣿⣿⣷⣾⣿⣿⣿⣿⣶⡦⣀⠀⠀⠀⣠⠤⣤⡆
 ⠀⠀⠀⠀⠀⠀⣿⡆⣠⣿⣿⣿⡏⣿⣴⣿⣿⣿⣶⣆⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣸⣁⣀⣿
 ⠀⠀⠀⠀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⣯⢿⣿⣿⣧⡙⣾⣿
 ⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟
@@ -60,8 +59,7 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⠛⠉⠚⣿⣛⣉⣿⣿⣿⣿⣿⡿⢿⣿⣿⢿⣿⣿⣿⣿⣿⣿
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣏⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣿⡿⣿⣿⣿⣯⣿⣿⣾⣽⣿⣿⣿⣿⣿⣿
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⠏⣿⠏⣸⢑⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣻
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣶⣿⣼⣿⣿⣿⣟⣟⣹⣿⣿⣟⣿⣿⣿⣿⣟⣩⣗⣿⣿⡿⢿⣿⢿⣷⣻⣾⣿⣿⣷⣷⣿⣿⣿⣿⣿⢿⣷⣚
-*/
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣶⣿⣼⣿⣿⣿⣟⣟⣹⣿⣿⣟⣿⣿⣿⣿⣟⣩⣗⣿⣿⡿⢿⣿⢿⣷⣻⣾⣿⣿⣷⣷⣿⣿⣿⣿⣿⢿⣷⣚ */
 #include <algorithm>
 #include <bitset>
 #include <complex>
@@ -103,52 +101,68 @@
 #include <ext/pb_ds/trie_policy.hpp>
 using namespace __gnu_pbds;
 using namespace std;
-#define ll              long long int
-#define ld              long double
-#define mod             1000000007
-#define inf             1e18
-#define pb              push_back
-#define vi              vector<ll>
-#define vvi             vector<vi>
-#define vs              vector<string>
-#define pii             pair<ll , ll>
-#define ump             unordered_map
-#define mp              make_pair
-#define pq_max          priority_queue<ll>
-#define pq_min          priority_queue<ll,vi,greater<ll> >
-#define all(n)          n.begin(),n.end()
-#define ff              first
-#define ss              second
-#define mid(l,r)        (l+(r-l)/2)
-#define bitc(n)         __builtin_popcount(n)
-#define loop(i,a,b)     for(int i=(a);i<=(b);i++)
-#define looprev(i,a,b)  for(int i=(a);i>=(b);i--)
+#define ll                 long long int
+#define ld                 long double
+#define mod                1000000007
+#define inf                1e18
+#define pb                 push_back
+#define vi                 vector<ll>
+#define vvi                vector<vi>
+#define vs                 vector<string>
+#define pii                pair<ll , ll>
+#define ump                unordered_map
+#define mp                 make_pair
+#define pq_max             priority_queue<ll>
+#define pq_min             priority_queue<ll,vi,greater<ll> >
+#define all(n)             n.begin(),n.end()
+#define ff                 first
+#define ss                 second
+#define mid(l,r)           (l+(r-l)/2)
+#define bitc(n)            __builtin_popcount(n)
+#define loop(i,a,b)        for(int i=(a);i<=(b);i++)
+#define looprev(i,a,b)     for(int i=(a);i>=(b);i--)
 #define iter(container, it) for(__typeof(container.begin()) it = container.begin(); it != container.end(); it++)
-#define log(args...)    { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
-#define logarr(arr,a,b) for(int z=(a);z<=(b);z++) cout<<(arr[z])   ;cout<<endl;
- 
- 
- 
- 
+#define log(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
+#define logarr(arr,a,b) for(int z=(a);z<=(b);z++) cout<<(arr[z]) << ' ' ; cout<<endl;
+
 void file_i_o(){
-      ios_base::sync_with_stdio(0);
+       ios_base::sync_with_stdio(0);
          cin.tie(0);
          cout.tie(0);
 }
- 
- 
- void solve(){
- 
- 
- 
+
+void solve(){
+      // Your code here...
+           
+               ll n ,k ,x;
+
+               cin>>n>>k>>x;
+               // for we calculate all over some of n nd k  then we compare it with the with the sum overall sum of n 
+                // and k and then we compare it with the x if it is greater than x then we print no otherwise we print yes
+                
+                  
+                   ll sum_n = (n*(n+1))/2;
+                   ll sum_k = (k*(k+1))/2;
+                    
+                   ll ans = sum_n-((n-k)*(n-k+1))/2;
+
+                   if(sum_k>x or sum_n<x or ans<x){
+                     cout<<"NO\n";
+                      return;
+
+                   }
+                   if(sum_k<=x and sum_n>=x and ans>=x){
+                     cout<<"YES\n";
+                   }
+
 }
+
 int main() {
-      file_i_o();
-// Write your code here....
-                 int t;
-                 cin>>t;
-                 while(t--){
-                    solve();
-                 }
-return 0;
+    file_i_o();
+      int t;
+      cin >> t;
+        while(t--){
+           solve();
+      }
+    return 0;
 }
